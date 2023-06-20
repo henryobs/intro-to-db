@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Geologica', sans-serif;
+}
+
+.large-btn {
+  font-size: 25px !important;
+  padding: 10px 15px !important;
+  margin: 25px 0px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 650px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+.product {
+  padding: 15px;
+  margin: 10px 0px;
+  position: relative;
+}
+
+.product:hover {
+  cursor: pointer;
+}
+
+.product-img {
+  height: 20vh;
+  width: 20vw;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  font-size: 16px;
+}
+
+.product-price {
+  font-size: 18px;
+}
+
+.product-quantity, .product-date {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.add-to-cart-btn {
+  float: right;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header i {
+  font-size: 30px;
+}
+
+.home-btn {
+  color: black;
+}
+
+.product:hover .admin-controls {
+  display: flex;
+  height: 100%;
+}
+
+.admin-controls {
+  width: 100%;
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000061;
+  margin: -15px;
+}
+
+.update-btn, .delete-btn {
+  font-size: 25px;
+  margin: 0px 25px;
+}
+
+.update-btn {
+  color: green;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.add-new-card {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  background-color: rgba(0, 0, 0, 0.175);
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.add-new-card i {
+  font-size: 30px;
+}
+
+.invoice-card {
+  padding: 30px 20px;
+}
+
+.cart-invoice {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 10px 0px;
+}
+
+.cart-item-card {
+  margin: 15px 0px;
+  padding: 15px;
+  flex-direction: row !important;
+}
+
+.cart-det {
+  margin: 5px 0px;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.cart-item-img {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.checkout {
+  margin: 15px 0px;
+}
+
+.modal-content {
+  width: fit-content !important;
+}
